@@ -1,0 +1,3 @@
+#!/bin/sh
+
+git --work-tree=/usr/flaskapp/src --git-dir=/usr/flaskapp/repo/website.git checkout -f master
