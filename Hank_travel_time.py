@@ -22,7 +22,7 @@ def __driving_history_from_to(start_datetime,from_str, destination_str):
     "departure_time": str(floor(time.mktime(start_datetime.timetuple()))),
     "destination":destination_str,
     "mode":"driving",
-    "key":"AIzaSyB9oEtWZbhLqxg7sysHywghqOJPymV9LTI"
+    "key":"???"
     }
     base_url="https://maps.googleapis.com/maps/api/directions/json"
     json_response=requests.get(base_url, params=params)
@@ -38,7 +38,7 @@ def __walking_history_from_to(start_datetime,from_str, destination_str):
     "departure_time": str(floor(time.mktime(start_datetime.timetuple()))),
     "destination":destination_str,
     "mode":"walking",
-    "key":"AIzaSyB9oEtWZbhLqxg7sysHywghqOJPymV9LTI"
+    "key":"???"
     }
     base_url="https://maps.googleapis.com/maps/api/directions/json"
     json_response=requests.get(base_url, params=params)
@@ -53,7 +53,7 @@ def __biking_history_from_to(start_datetime,from_str, destination_str):
     "departure_time": str(floor(time.mktime(start_datetime.timetuple()))),
     "destination":destination_str,
     "mode":"biking",
-    "key":"AIzaSyB9oEtWZbhLqxg7sysHywghqOJPymV9LTI"
+    "key":"???"
     }
     base_url="https://maps.googleapis.com/maps/api/directions/json"
     json_response=requests.get(base_url, params=params)
@@ -68,7 +68,7 @@ def __transit_history_from_to(start_datetime,from_str, destination_str):
     "departure_time": str(floor(time.mktime(start_datetime.timetuple()))),
     "destination":destination_str,
     "mode":"transit",
-    "key":"AIzaSyB9oEtWZbhLqxg7sysHywghqOJPymV9LTI"
+    "key":"???"
     }
     base_url="https://maps.googleapis.com/maps/api/directions/json"
     json_response=requests.get(base_url, params=params)
